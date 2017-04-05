@@ -14,10 +14,7 @@ int main() {
 	word.push_back('a');
 	word.push_back('n');
 	word.push_back('e');
-	/*word.push_back('n');
-	word.push_back('d');
-	word.push_back('o');
-	*/
+	
 	//completar espacios
 	int a;
 	int len = word.size();
@@ -35,7 +32,7 @@ int main() {
 		palabra.push_back(c);
 	}
 
-	//segunda fila:arreglar
+	//segunda fila:bien
 	int pos = 1;
 	while(pos<len){
 		if((pos)%3 == 0 ){
