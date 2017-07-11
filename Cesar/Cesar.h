@@ -7,8 +7,8 @@ class Cesar {
 public:
 	int clave;
 	string alfabeto;
-	void cifrar(string algo);
-	void descifrar(string algo);
+	string cifrar(string algo);
+	string descifrar(string algo);
 	Cesar(int clavecita);//sacar clavecitas
 	//~Cesar();
 	

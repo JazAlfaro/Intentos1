@@ -5,16 +5,13 @@ using namespace std;
 
 int main() {
 	Cesar a(3);
-	cout<<"Mensaje cifrado: ";
-	a.cifrar("jaz");
+	string cifrado = a.cifrar("jazyrenuporsiempre");
+	cout<<"Mensaje cifrado: "<<cifrado<<endl;
 	cout<<endl;
-	cout<<"Mensaje descifrado: ";
-	a.descifrar("mdb");
+	string descifrado = a.descifrar("mdbauhqxsruvlhpsuh");
+	cout<<"Mensaje descifrado: "<<descifrado;
 	
-	
-	
-	
-	
+	//cout<<"Mensaje descifrado: ";
 	return 0;
 }
 
