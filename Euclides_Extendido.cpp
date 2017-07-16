@@ -3,13 +3,14 @@
 using namespace std;
 
 
-int aee(int a, int b){
+void aee(long a, long b){
 	vector<int> x;
 	vector<int> y;
 	vector<int> r;
 	vector<int> q;
 	r.push_back(a);
 	r.push_back(b);
+	q.push_back(0);
 	x.push_back(1);
 	x.push_back(0);
 	y.push_back(0);
@@ -34,40 +35,14 @@ int aee(int a, int b){
 	cout<<"X:  "<<x[t]<<endl;
 	cout<<"Y:  "<<y[t]<<endl;
 	
-	
-	
-	/*
-	cout<< "RESIDUO"<<endl;
+	cout<< "residuo     cociente     x     y"<<endl;
+	cout<<endl;
 	for(int i=0;i<r.size();i++){
-		cout<<r[i]<<endl;
+		cout<<r[i]<<"    "<<q[i]<<"    "<<x[i]<<"    "<<y[i]<<endl;
 	}
-	cout<<endl;
-	
-	cout<< "COCIENTE"<<endl;
-	for(int i=0;i<q.size();i++){
-		cout<<q[i]<<endl;
-	}
-	cout<<endl;
-	
-	cout<< "X"<<endl;
-	for(int i=0;i<x.size();i++){
-		cout<<x[i]<<endl;
-	}
-	cout<<endl;
-	
-	cout<< "Y"<<endl;
-	for(int i=0;i<y.size();i++){
-		cout<<y[i]<<endl;
-	}
-	cout<<endl;
-	*/
-	
 }
-
-
-
 int main() {
-	aee(672,38);
+	aee(1489,58);
 	
 	
 	return 0;
