@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+/*
 int modulo(int a, int b){ 
 	int r,c;
 	c=a/b;
@@ -19,8 +19,8 @@ int euclides(int m, int n){
 		return n;
 	else
 		euclides(n,r);
-}
-int* Extendido(int a, int b){
+}*/
+void Extendido(int a, int b){
 	int u = 0;
 	int v = 0;
 	int respuesta[3];
@@ -55,27 +55,14 @@ int* Extendido(int a, int b){
 	respuesta[1] = u0;
 	respuesta[2] = v0;
 	}
-	return respuesta;
+	//return respuesta;
+	cout<<endl;
+	cout<< "  u = "<<respuesta[1]<<"       t = "<<respuesta[2];
 	
 }
-/*
-int diofantica(int a, int b, int c){
-	int d = euclides(a,b);
-	if(c%d==0){
-		e = c/d;
-		return e;
-	}
-	else
-	   cout<<"Termino el programa";	
-	///Solucion Particular
-	int x_0= e + 
-
-
-
-}*/
 
 int main() {
-	int* p = Extendido(987,610);
+	Extendido(141,96);
 	
 	return 0;
 }
